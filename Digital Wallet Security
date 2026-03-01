@@ -1,0 +1,32 @@
+From a real-world perspective, what is currently the biggest security risk for everyday wallet users, and what single habit would reduce that risk the most?
+How do emerging approaches like MPC or account abstraction change the traditional security model of private keys, and do they meaningfully improve both usability and privacy?
+
+
+
+Professor, the 2025 Bybit hack resulted in the loss of over $1.4 billion because attackers used malicious JavaScript to compromise the Gnosis Safe web interface rather than the smart contract itself. Since this allowed hackers to trick a transaction proposer into bypassing multisignature protections, does this mean that the "security of the interface" is now a more critical weak point for large organizations than the security of the blockchain protocol?
+Web and browser extension wallets are described as having a "high risk of phishing attacks" through fake websites or impersonated extensions. Since these attackers often aim to capture the seed phrase, is there a technical reason why these wallets don't use more aggressive "sandboxing" to prevent malicious extensions from interacting with the wallet's local storage?
+
+
+Custodial vs Non-Custodial wallets
+
+
+
+How does a Virtual Asset Wallet Provider (VAWP) offering custodial wallet services operate in practice, particularly regarding the generation, custody, and control of private keys on behalf of clients? do clients walk to providers as traditional banking setup for accounts?
+
+Thank you for presenting Session 4 on Digital Wallet Security and Privacy. It is sincerely appreciated. I have a few AML and cybersecurity questions related to Session 4's course material for the Q&A:
+
+
+
+AML: Monitoring and Sanctions
+
+
+
+1) From a digital forensics and blockchain analytics perspective, how are wallets assessed for illicit activity? To what extent do monitoring approaches rely on on-chain heuristics (ex.: clustering, transaction patterns) versus off-chain metadata such as IP addresses or exchange KYC data?
+2) From an AML perspective, can the use of multiple Bitcoin addresses functionally resemble layering techniques such as peel chains or structuring behaviors? How does blockchain analytics differentiate between between privacy-enhancing address rotation and illicit fragmentation strategies?
+3) How are cryptocurrency wallets designated or flagged in the context of sanctions related to ransomware or proliferation financing? Are these determinations primarily based on blockchain analytics and transaction clustering? What are the implications for custodial vs. non-custodial wallets and for on-/off-ramp service providers?
+4) In practice, how can individuals or small entities verify whether a wallet address is associated with sanctions risk if they do not have access to institutional screening tools? What is the compliance expectation for participants transacting in decentralized environments?
+
+
+Cybersecurity and Cyber-incident response
+
+1) Given the vulnerabilities associated with browser extensions, mobile wallets, and public environments, how do malware, spyware, phishing, and/or keylogging attacks compromise private keys? Are zero-day vulnerabilities in a wallet software a material or systemic risk, and what are the downstream implications for crypto-enabled money laundering and fraud and/or ransomware financing?
